@@ -1,0 +1,16 @@
+p{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+/*Jattan nu padhai hundi zehar vargi*/
+body{
+    font-family: Roboto,Arial;
+    margin: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+a {
+    text-decoration: none;
+    color: #00796B ;
+   } 

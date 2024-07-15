@@ -1,0 +1,165 @@
+.welcome{
+    display: flex;
+    height: 632px;
+    background-color: red;
+}
+.welcome-image{
+    background-color: #00796B;
+    width: 400px;
+    height: 632px;
+    position: relative;
+}
+.welcome-text{
+    background-color: #B2DFDB;
+    flex: 1;
+    height: 632px;
+    position: relative;
+}
+.welcome-text p{
+    position: absolute;
+    top: 150px;
+    left: 100px;
+    font-size:66px;
+    width: 650px;
+    color: #00796B;
+}
+.welcome-text button{
+    cursor: pointer;
+    position: absolute;
+    background-color: #00796B;
+    color: #B2DFDB;
+    border: none;
+    padding: 10px 30px;
+    font-size: 20px;
+    border-radius: 2px;
+    top: 340px;
+    left: 100px;
+    transition: ease-in-out 500ms;
+}
+.welcome-text button:hover{
+    background-color: #038e7e;
+}
+.welcome-image img{
+    position: absolute;
+    left: -20px;
+    top: 120px;
+    width: 400px;
+    height: 400px;
+    transform: rotate(-18deg);
+}
+
+.about-me{
+    background-color: #B2DFDB;
+}
+.about-me-header{
+    height: 125px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.about-me-header p{
+    color: #00796B;
+    font-size: 50px;
+}
+.about-me-info{
+    display: flex;
+    flex-direction: row;
+    height: 602px;
+}
+.about-me-image{
+    position: relative;
+    display: flex;
+
+    width: 450px;
+    height: 525px;
+    align-items: center;
+    justify-content: center;
+}
+.about-me-image img{
+    border-radius: 5px;
+    width: 300px;
+}
+.about-me-para{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+}
+.about-me-para p{
+    font-size: 20px;
+    width: 550px;
+    background-color: #00796B;
+    color: #B2DFDB;
+    padding: 40px 60px;
+    border-radius: 10px;
+}
+.skillset{
+    height: 727px;
+    background-color: #B2DFDB;
+}
+.skillset2{
+    height: 727px;
+    background-color: #B2DFDB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.skillset-header{
+    height: 125px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #00796B;
+
+    font-size: 50px;
+}
+.skillset-main{
+    display: flex;
+    flex-direction: row;
+    background-color: #00796B;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    margin:50px;
+    border-radius: 50px;
+}
+.skillset-main2{
+    display: flex;
+    flex-direction: row;
+    background-color: #00796B;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    margin:50px;
+    border-radius: 50px;
+}
+.skillset-main img{
+    width: 400px;
+    height: 400px;
+    margin-right: 50px;
+    object-fit: cover;
+    object-position: 50% 0;
+    border-radius: 400px;
+}
+.skillset-main2 img{
+    width: 400px;
+    height: 327.16px;
+    margin-right: 50px;
+
+}
+.skillset-main p{
+    font-size: 20px;
+    width: 550px;
+    background-color: #00796B;
+    color: #B2DFDB;
+    padding: 40px 60px;
+
+}
+.skillset-main2 p{
+    font-size: 20px;
+    width: 550px;
+    background-color: #00796B;
+    color: #B2DFDB;
+    padding: 40px 60px;
+
+}

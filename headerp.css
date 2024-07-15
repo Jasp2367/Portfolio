@@ -1,0 +1,38 @@
+.header{
+    background-color: gray;
+    display: flex;
+    flex-direction: row;
+    height: 95px;
+}
+/*height of browser 727px*/
+.logo{
+    font-family: 'Arizonia';
+    font-size: 40px;
+    width: 400px;
+    display: flex;
+    color: #B2DFDB;
+    background-color: #00796B;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.icons{
+    color: #00796B;
+    font-size: 15px;
+    padding-left: 200px;
+    padding-right: 200px;
+    width: 180px;
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #B2DFDB;
+}
+.icons p,.icons img{
+    cursor: pointer;
+}
+.icons img{
+    height: 30px;
+    width: 30px;
+}

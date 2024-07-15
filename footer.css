@@ -1,0 +1,25 @@
+.footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color:#00796B ;
+    height: 80px;
+    color: #B2DFDB; 
+}
+.footer-logo{
+    font-family: arizonia;
+    font-size: 30px;
+    margin-right: 45px;
+}
+.footer-info{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 45px;
+}
+.footer-info img{
+    height: 30px;
+    width: 30px;
+    margin-right: 10px;
+}
