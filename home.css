@@ -53,6 +53,11 @@
     .welcome-image{
         padding: 0;
     }
+    .welcome-image img{
+        width: 300px;
+        height: 300px;
+
+    }
 }
 
 /* Media Queries for larger screens */
