@@ -37,6 +37,10 @@
     .logo{
         padding: 0;
     }
+    .icons img{
+        height: 20px;
+        width: 20px;
+    }
 }
 
 
